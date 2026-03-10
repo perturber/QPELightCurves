@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qpenn"
+version = "0.0.1a"
+description = "Regression model for mapping QPE time-series to EMRI parameters"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "scipy",
+    "astropy",
+    "kerrgeopy"
+]
+
+[tool.setuptools]
+package-dir = {"qpenn" = "src"}
