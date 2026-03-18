@@ -5,8 +5,8 @@
    conda activate qpe_env
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/perturber/QPE-NN.git
-   cd QPE-NN
+   git clone https://github.com/perturber/QPELightCurves.git
+   cd QPELightCurves
 2. **Install in editable mode:**
    ```bash
    pip install -e .
