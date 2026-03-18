@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "qpenn"
+name = "qpecurves"
 version = "0.0.1a"
-description = "Regression model for mapping QPE time-series to EMRI parameters"
+description = "Generate luminosity and count-rates for QPEs under the EMRI hypothesis."
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
@@ -16,4 +16,4 @@ dependencies = [
 ]
 
 [tool.setuptools]
-package-dir = {"qpenn" = "src"}
+package-dir = {"qpecurves" = "src"}
